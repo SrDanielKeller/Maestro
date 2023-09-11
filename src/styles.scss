@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: caviar;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #80cee1;
+}
+
+@font-face {
+    font-family:"caviar";
+    src:  local("caviar"), url(assets/fonts/caviar_dreams/CaviarDreams.ttf) format("truetype");
+}
